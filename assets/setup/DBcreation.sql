@@ -1,10 +1,10 @@
 
 --
--- Database: `webwise_loginsystem`
+-- Database: `ww_loginsystem`
 --
 
-create schema webwise_loginsystem;
-use webwise_loginsystem;
+create schema ww_loginsystem;
+use ww_loginsystem;
 
 -- --------------------------------------------------------
 
