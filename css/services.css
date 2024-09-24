@@ -1,0 +1,217 @@
+/* General styles for the quick view button */
+/* General styles for the quick view button */
+.quick-view-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    display: none; /* Hide initially */
+}
+
+/* Ensure the button appears when hovering over any image */
+.image-container {
+    position: relative; /* Ensure the container is positioned correctly */
+    display: inline-block; /* Allow for inline-block elements */
+}
+
+/* Show the quick view button when hovering over the image container */
+.image-container:hover .quick-view-btn {
+    display: block; /* Show the button on hover */
+}
+
+/* Show the quick view button when hovering over the image container */
+.image-container:hover .quick-view-btn {
+    display: block; /* Show the button on hover */
+}
+
+/* Frame3 styles */
+.Frame3 {
+    width: 1700px;  /* Adjusted width */
+    height: 1200px; /* Adjusted height */
+    left: -100px;   /* Adjusted position */
+    top: -50px;     /* Adjusted position */
+    position: absolute;
+    background: white;
+}
+
+/* Category styles */
+.Business,
+.DigitalMarketing,
+.GraphicsDesign,
+.MusicAudio,
+.Lifestyle {
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 16px;
+    font-family: Bookshelf Symbol 7;
+    font-weight: 400;
+    line-height: 33px;
+    word-wrap: break-word;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s, text-decoration 0.3s;
+    text-decoration: none;
+}
+
+/* Hover effect for category */
+.Business:hover,
+.DigitalMarketing:hover,
+.GraphicsDesign:hover,
+.MusicAudio:hover,
+.Lifestyle:hover {
+    text-decoration: underline;
+}
+
+/* Business category */
+.Business {
+    width: 120px;
+    height: 38px;
+    left: 535px;
+    top: 148px;
+}
+
+/* Digital Marketing category */
+.DigitalMarketing {
+    width: 226px;
+    height: 38px;
+    left: 640px;
+    top: 148px;
+}
+
+/* Graphics Design category */
+.GraphicsDesign {
+    width: 226px;
+    height: 38px;
+    left: 800px;
+    top: 148px;
+}
+
+/* Music and Audio category */
+.MusicAudio {
+    width: 226px;
+    height: 38px;
+    left: 962px; /* Adjusted position to fit between Graphics Design and Lifestyle */
+    top: 148px;
+}
+
+/* Lifestyle category */
+.Lifestyle {
+    width: 200px;
+    height: 38px;
+    left: 1134px;
+    top: 148px;
+}
+
+/* Button styles */
+.EngagingButton {
+    width: 300px;
+    height: 80px;
+    padding: 16px;
+    left: 1150px;
+    top: 127px;
+    position: absolute;
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    display: inline-flex;
+}
+
+.EngagingButton .Button {
+    padding: 14px 16px;
+    border-radius: 4px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+    background: #EEEEEE;
+    color: #706F6F;
+    transition: background 0.3s, color 0.3s;
+}
+
+.EngagingButton .Button:hover {
+    background: #F4752E;
+    color: white;
+}
+
+.EngagingButton .Button .SignUpForFree {
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 14px;
+    word-wrap: break-word;
+}
+
+/* Hover state for EngagingButton */
+.EngagingButton .HoverTrue .Button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.EngagingButton .HoverFalse .Button {
+    display: none;
+}
+
+/* Footer Styles */
+.footer-area {
+    padding: 600px 0px; /* Adjusted padding-bottom to create space below */
+    background-color: #f9f9f9;
+}
+
+/* Adjusting the position of Group1 and Socials */
+.col-lg-5 .Group1,
+.col-lg-5 .Socials {
+    margin-top: 20px; /* Add margin-top to create space below */
+}
+
+/* Adjusting the position of Socials */
+.Socials {
+    position: relative;
+}
+
+/* Adjusting the position of individual social icons */
+.Socials a {
+    position: absolute;
+}
+
+.Socials .XIcon,
+.Socials .InIcon,
+.Socials .TtIcon,
+.Socials .IgIcon,
+.Socials .FbIcon {
+    width: 35px;
+    height: 35px;
+    top: 0; /* Position icons at the top */
+}
+
+/* Adjusting the position of individual social icons */
+.Socials .XIcon {
+    right: 184px; /* Adjusted right position */
+}
+
+.Socials .InIcon {
+    right: 138px; /* Adjusted right position */
+}
+
+.Socials .TtIcon {
+    right: 92px; /* Adjusted right position */
+}
+
+.Socials .IgIcon {
+    right: 46px; /* Adjusted right position */
+}
+
+.Socials .FbIcon {
+    right: 0; /* Adjusted right position */
+}
